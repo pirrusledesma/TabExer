@@ -23,6 +23,8 @@
 		79A4FACE18D8EA4400072099 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A4FAAA18D8EA4300072099 /* UIKit.framework */; };
 		79A4FAD618D8EA4400072099 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 79A4FAD418D8EA4400072099 /* InfoPlist.strings */; };
 		79A4FAD818D8EA4400072099 /* TabExerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 79A4FAD718D8EA4400072099 /* TabExerTests.m */; };
+		79A4FAE218D8EA6F00072099 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A4FAE118D8EA6F00072099 /* iAd.framework */; };
+		79A4FAE418D91D3600072099 /* icono3.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 79A4FAE318D91D3600072099 /* icono3.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		79A4FAD318D8EA4400072099 /* TabExerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TabExerTests-Info.plist"; sourceTree = "<group>"; };
 		79A4FAD518D8EA4400072099 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		79A4FAD718D8EA4400072099 /* TabExerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TabExerTests.m; sourceTree = "<group>"; };
+		79A4FAE118D8EA6F00072099 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
+		79A4FAE318D91D3600072099 /* icono3.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = icono3.jpeg; path = ../../../Downloads/icono3.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +69,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				79A4FAE218D8EA6F00072099 /* iAd.framework in Frameworks */,
 				79A4FAA918D8EA4300072099 /* CoreGraphics.framework in Frameworks */,
 				79A4FAAB18D8EA4300072099 /* UIKit.framework in Frameworks */,
 				79A4FAA718D8EA4300072099 /* Foundation.framework in Frameworks */,
@@ -106,6 +111,7 @@
 		79A4FAA518D8EA4200072099 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				79A4FAE118D8EA6F00072099 /* iAd.framework */,
 				79A4FAA618D8EA4200072099 /* Foundation.framework */,
 				79A4FAA818D8EA4300072099 /* CoreGraphics.framework */,
 				79A4FAAA18D8EA4300072099 /* UIKit.framework */,
@@ -117,6 +123,7 @@
 		79A4FAAC18D8EA4300072099 /* TabExer */ = {
 			isa = PBXGroup;
 			children = (
+				79A4FAE318D91D3600072099 /* icono3.jpeg */,
 				79A4FAB518D8EA4300072099 /* AppDelegate.h */,
 				79A4FAB618D8EA4300072099 /* AppDelegate.m */,
 				79A4FAB818D8EA4300072099 /* Main_iPhone.storyboard */,
@@ -240,6 +247,7 @@
 				79A4FAC518D8EA4300072099 /* Images.xcassets in Resources */,
 				79A4FABA18D8EA4300072099 /* Main_iPhone.storyboard in Resources */,
 				79A4FAB118D8EA4300072099 /* InfoPlist.strings in Resources */,
+				79A4FAE418D91D3600072099 /* icono3.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
